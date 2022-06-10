@@ -31,11 +31,8 @@ SUBROUTINE dendgrowth_init
     ALLOCATE(y_S0n1(xDim,yDim))
 
 
-
     I_v(:,:)= 0     !liquid=0, solid=1
     I_v_G(:,:)=0
-
-
 
     width_cell_old(:,:)= 0.
     width_cell(:,:)= 0.

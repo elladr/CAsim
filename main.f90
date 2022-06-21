@@ -15,7 +15,6 @@ call dendgrowth_init
 call Output(iter)
 
 
-
 !.................... main loop ...............
 
 do iter=1, niter
